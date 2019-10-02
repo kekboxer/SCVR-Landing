@@ -204,7 +204,7 @@ footer {
     height: 100vh;
 }
 
-.login {
+.login, .registration {
     padding: 100px 0;
 }
 
@@ -231,23 +231,24 @@ footer {
     font-family: "Helvetica-Bold", sans-serif;
     font-size: 30px;
     color: rgba(255, 255, 255, 0.83);
+    margin-bottom: 35px;
 }
 
 .login__input {
     font-family: "Helvetica-Light", sans-serif;
     font-size: 20px;
-    margin: 15px 0;
-    width: 50%;
+    margin: 20px auto;
+    width: 60%;
     color: #FFF;
     text-align: center;
     border: none;
     background: none;
     border-bottom: 1px solid rgba(255, 2555, 255, 0.73);
     outline: none;
+    display: block;
 }
 
 .login__radio {
-    margin: 20px 0;
     font-family: "Helvetica-Light", sans-serif;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.45);
@@ -290,4 +291,28 @@ footer {
 
 .login__extra:hover {
     color: #FFF;
+}
+
+/*REGISTRATION*/
+
+.global-wrapper__registration {
+    background: url(../img/login.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.checkboxes {
+    margin: 20px auto 0 auto;
+    width: 50%;
+    text-align: left;
+}
+
+.checkboxes input {
+    margin: 15px 0;
+}
+
+.extra__input {
+    color: rgba(255, 255, 255, 0.45);
+    background: none;
+    border: 1px solid rgba(255, 2555, 255, 0.73);
 }

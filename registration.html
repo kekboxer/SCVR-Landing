@@ -4,10 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>RTU Login</title>
+    <title>RTU Registration</title>
 
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/png" class="logo">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro&display=swap" rel="stylesheet">
@@ -15,7 +14,7 @@
 </head>
 
 <body>
-    <div class="global-wrapper__login">
+    <div class="global-wrapper__registration">
         <header class="header">
             <span class="brand">
                 Situation Center
@@ -25,7 +24,7 @@
             </ul>
         </header>
         <main>
-            <div class="main-wrapper login">
+            <div class="main-wrapper registration">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-2 button__back">
@@ -34,20 +33,41 @@
                         <div class="col-1"></div>
                         <div class="col-6 login__form">
                             <div class="login__title">
-                                <h2>Sign in</h2>
+                                <h2>Sign up</h2>
                             </div>
                             <form action="">
                                 <input type="email" class="login__input" placeholder="Enter your E-mail">
 
                                 <input type="password" class="login__input" placeholder="Enter your password">
 
-                                <input type="checkbox" name="remember" value="true" class="checkbox"><span class="login__radio">&nbsp;&nbsp;Remember me on this computer</span>
+                                <input type="password" class="login__input" placeholder="Enter your password again">
+
+                                <input type="text" class="login__input" placeholder="First name">
+
+                                <input type="text" class="login__input" placeholder="Last name">
+
+                                <input type="tel" class="login__input" placeholder="Phone number">
+
+                                <input type="date" id="date" class="extra__input">
+                                <select class="extra__input">
+                                    <option>Sex</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
                                 <br>
-                                <input type="submit" class="login__button" value="Sign in">
+                                <div class="checkboxes">
+                                    <input type="checkbox" name="personal" value="true" class="checkbox"><span class="login__radio">&nbsp;&nbsp;I agree with using my personal
+                                        data</span>
+                                    <br>
+                                    <input type="checkbox" name="terms" value="true" class="checkbox"><span class="login__radio">&nbsp;&nbsp;I agree with the terms of
+                                        use</span>
+                                </div>
+                                <br>
+                                <input type="submit" class="login__button" value="Sign up">
                             </form>
                             <div class="row">
-                                <div class="col-6"><a href=""><span class="login__extra">Don’t have an account?</span></a></div>
-                                <div class="col-6"><a href=""><span class="login__extra">Forgot your password?</span></a></div>
+                                <div class="col-6"><a href=""><span class="login__extra">Don’t have an
+                                            account?</span></a></div>
                             </div>
                         </div>
                         <div class="col-3"></div>
