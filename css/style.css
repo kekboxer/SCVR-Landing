@@ -48,18 +48,14 @@
 
 /*MAIN*/
 
-body {
+.global-wrapper__home{
     background: url(../img/sc_main.png);
     background-size: cover;
     background-attachment: fixed;
 }
 
-.main-wrapper {
-    width: 100%;
-}
-
 .main__tagline {
-    margin: 300px 0;
+    padding: 300px 0;
     text-align: center;
     color: #FFF;
 }
@@ -171,6 +167,8 @@ body {
     color: #FFF;
 }
 
+/*FOOTER*/
+
 footer {
     background: #FFF;
 }
@@ -178,6 +176,7 @@ footer {
 .footer-wrapper {
     padding: 30px 50px 30px 50px;
     background: rgba(0, 0, 0, 0.58);
+    font-size: 20px;
 }
 
 .footer-wrapper ul{
@@ -186,14 +185,109 @@ footer {
 
 .footer-wrapper a{
     font-family: "Helvetica-Light", sans-serif;
-    font-size: 20px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.83);
 }
 
 .footer-wrapper span{
     font-family: "Helvetica-Bold", sans-serif;
-    font-size: 20px;
     color: #FFF;
     font-weight: bold;
+}
+
+/*LOGIN PAGE*/
+
+.global-wrapper__login {
+    background: url(../img/login.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.login {
+    padding: 100px 0;
+}
+
+.button__back {
+    font-family: "Helvetica-Light", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.58);
+    padding: 0.8em 0;
+    height: 3em;
+}
+
+.button__back a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.83);
+}
+
+.login__form {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.58);
+}
+
+.login__title h2 {
+    font-family: "Helvetica-Bold", sans-serif;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.83);
+}
+
+.login__input {
+    font-family: "Helvetica-Light", sans-serif;
+    font-size: 20px;
+    margin: 15px 0;
+    width: 50%;
+    color: #FFF;
+    text-align: center;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgba(255, 2555, 255, 0.73);
+    outline: none;
+}
+
+.login__radio {
+    margin: 20px 0;
+    font-family: "Helvetica-Light", sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.login__radio input {
+    border: 20px solid;
+    background: none;
+}
+
+.login__button {
+    margin: 20px 0;
+    font-family: "Helvetica-Bold", sans-serif;
+    font-size: 20px;
+    padding: 0.5em 0;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.65);
+    border: none;
+    transition: all ease 0.5s;
+}
+
+.login__button:hover {
+    background: #FFF;
+}
+
+.login__extra {
+    font-family: "Helvetica-Light", sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.45);
+    transition: all ease 0.5s;
+}
+
+.login__form {
+    padding: 0.7em 0;
+}
+
+.login__form a {
+    text-decoration: none;
+}
+
+.login__extra:hover {
+    color: #FFF;
 }
