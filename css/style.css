@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "Helvetica-Light";
+    src: url(../fonts/Helvetica-Light.otf)
+}
+
+@font-face {
+    font-family: "Helvetica-Bold";
+    src: url(../fonts/Helvetica-Bold.otf)
+}
+
+/*HEADER*/
+
+.header {
+    height: 81px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.58);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+}
+
+.brand {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.navbar {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.navbar__item {
+    margin: 0 30px;
+}
+
+.navbar__image {
+    height: 35px;
+}
+
+/*MAIN*/
+
+body {
+    background: url(../img/sc_main.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-wrapper {
+    width: 100%;
+}
+
+.main__tagline {
+    margin: 300px 0;
+    text-align: center;
+    color: #FFF;
+}
+
+.main__title {
+    margin-top: 35px;
+    padding: 0.7em 0;
+    background: rgba(0, 0, 0, 0.58);
+}
+
+.main__title h1 {
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.main__title h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.main__content {
+    padding: 33px 80px;
+    background: #FFF;
+}
+
+.main__about {
+  margin: 8em 0 0 0;
+  position: absolute;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2b2b2b;
+}
+
+.main__about h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.main__about ul {
+    margin-top: 25px;
+}
+
+.main__about li {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.main__about span {
+    font-family: "Helvetica-Light", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #595959;
+    display: block;
+    margin: 150px 0 0;
+}
+
+.main__download-wrapper {
+    background: url(../img/download.jpg);
+    background-size: cover;
+}
+
+.main__download {
+    padding: 80px 0 70px 0;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.26), #000000);
+}
+
+.download__title {
+    background: rgba(0, 0, 0, 0.58);
+    text-align: center;
+    padding: 20px 100px;
+}
+
+.download__title h3 {
+    color: #FFF;
+    font-family: "Helvetica-Light", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.download__buttons {
+    margin: 160px 0 0 0;
+}
+
+.download__button {
+    padding: 1em 0;
+    background: rgba(0, 0, 0, 0.58);
+    margin: 23px;
+    text-align: center;
+    height: 70px;
+    transition: all ease .5s;
+}
+
+.download__button:hover {
+    color: #2b2b2b;
+    background: #FFF;
+}
+
+.download__button span {
+    font-family: "Helvetica-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.download__buttons a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer {
+    background: #FFF;
+}
+
+.footer-wrapper {
+    padding: 30px 50px 30px 50px;
+    background: rgba(0, 0, 0, 0.58);
+}
+
+.footer-wrapper ul{
+    list-style: none;
+}
+
+.footer-wrapper a{
+    font-family: "Helvetica-Light", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.83);
+}
+
+.footer-wrapper span{
+    font-family: "Helvetica-Bold", sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bold;
+}
